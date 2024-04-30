@@ -24,7 +24,7 @@ def calculadora():
                 elif opcao == 3:
                     resultado = num1 * num2
                 elif opcao == 4:
-                    if num2 != 0:
+                    if num1 and num2 != 0:
                         resultado = num1 / num2
                     else:
                         print("Erro: Divisão por zero. Resultado: 0")
